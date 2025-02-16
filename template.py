@@ -6,16 +6,16 @@ logging.basicConfig(level=logging.INFO, format='[%(asctime)s]:%(message)s:')
 
 project_name="datascience"
 list_of_files=[".github/workflow/.gitkeep",
-               f"src/{project_name}/_init_.py",
-               f"src/{project_name}/components/_init_.py",
-               f"src/{project_name}/utils/_init_.py",
+               f"src/{project_name}/__init__.py",
+               f"src/{project_name}/components/__init__.py",
+               f"src/{project_name}/utils/__init__.py",
                f"src/{project_name}/utils/common.py",
-               f"src/{project_name}/config/_init_.py",
+               f"src/{project_name}/config/__init__.py",
                f"src/{project_name}/config/configuration.py",
-               f"src/{project_name}/pipeline/_init_.py",
-               f"src/{project_name}/entity/_init_.py",
+               f"src/{project_name}/pipeline/__init__.py",
+               f"src/{project_name}/entity/__init__.py",
                f"src/{project_name}/entity/config_entity.py",
-               f"src/{project_name}/constants/_init_.py",
+               f"src/{project_name}/constants/__init__.py",
                "config/congfig.yaml",
                "params.yaml",
                "schema.yaml",
@@ -23,7 +23,8 @@ list_of_files=[".github/workflow/.gitkeep",
                "Dockerfile",
                "setup.py",
                "reserach/reserach.ipynb",
-               "templates/index.html"]
+               "templates/index.html",
+               "app.py"]
 
 for filepath in list_of_files:
     filepath=Path(filepath)
