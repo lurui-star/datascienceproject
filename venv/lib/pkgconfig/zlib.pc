@@ -1,0 +1,13 @@
+prefix=/Users/ruilu/datascienceproject/venv
+exec_prefix=/Users/ruilu/datascienceproject/venv
+libdir=/Users/ruilu/datascienceproject/venv/lib
+sharedlibdir=/Users/ruilu/datascienceproject/venv/lib
+includedir=/Users/ruilu/datascienceproject/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
