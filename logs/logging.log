@@ -1,1 +1,36 @@
-[2025-02-16 10:56:37,761:INFO:main:Welcome to our custom logging data science]
+[2025-02-16 16:02:48,102:INFO:main:Welcome to our custom logging data science]
+[2025-02-16 16:03:30,464:INFO:main:Welcome to our custom logging data science]
+[2025-02-16 16:03:30,465:INFO:main:>>>>>stageData Ingestion Stage started <<<<<]
+[2025-02-16 16:03:30,466:INFO:common:yaml file: config/config.yaml loaded successfully]
+[2025-02-16 16:03:30,466:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-02-16 16:03:30,466:INFO:common:yaml file: schema.yaml loaded successfully]
+[2025-02-16 16:03:30,467:INFO:common:created directory at: artifacts]
+[2025-02-16 16:03:30,467:INFO:common:created directory at: artifacts/data_ingestion]
+[2025-02-16 16:03:30,995:INFO:data_ingestion:artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 195D:1EB9D8:1157B33:137BE50:67B24C58
+Accept-Ranges: bytes
+Date: Sun, 16 Feb 2025 21:03:30 GMT
+Via: 1.1 varnish
+X-Served-By: cache-chi-kigq8000108-CHI
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1739739811.923288,VS0,VE67
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 6faf95bfde7c8ff3033b61b6381a87806b202988
+Expires: Sun, 16 Feb 2025 21:08:30 GMT
+Source-Age: 0
+
+]
+[2025-02-16 16:03:30,997:INFO:main:>>>>>stageData Ingestion Stage completed <<<<<]
