@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ruilu/datascienceproject/mlruns/0/6623240da61a43cda1be2e3ea5afe799/artifacts
+end_time: 1740932991398
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6623240da61a43cda1be2e3ea5afe799
+run_name: nimble-crab-965
+run_uuid: 6623240da61a43cda1be2e3ea5afe799
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740932988171
+status: 3
+tags: []
+user_id: ruilu
